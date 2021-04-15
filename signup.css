@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+form {
+    margin-top: 11%;
+    margin-right: 3%;
+}
+
+.row>.col-md-6>img {
+    width: 80%;
+}
+
+
+body>div.row>div:nth-child(1)>img {
+    text-align: center;
+    margin: 5px;
+}
+
+.footer {
+    margin-top: 2%;
+    background-color: rgba(37, 2, 14, 0.671);
+    padding-bottom: 2%;
+    color: #fff;
+    text-align: center;
+}
