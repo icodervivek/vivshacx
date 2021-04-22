@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="./signin.css">
+    <link rel="stylesheet" href="./contact.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 
 <body>
@@ -27,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="./services.html">Our Services</a>
+                    <a class="nav-link active" href="./services.html">Our Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact Us</a>
@@ -36,7 +40,7 @@
                     <a class="nav-link" href="./signup.html">Sign Up</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="./signin.html">Sign In</a>
+                    <a class="nav-link" href="./signin.html">Sign In</a>
                 </li>
 
             </ul>
@@ -46,39 +50,24 @@
             </form>
         </div>
     </nav>
-
     </div>
 
-    <div class="row">
-        <div class="col-md-6 col-sm-12 col-xs-12">
-            <img src="./undraw_mobile_login_ikmv.png" alt="">
-        </div>
-        <div class="col-md-6 col-sm-12 col-xs-12">
-            <form class="col-sm-12" method="GET" action="./index.html">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input required type="email" class="form-control" id="exampleInputEmail1"
-                        aria-describedby="emailHelp">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input required type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <!-- <div class="form-group form-check">
-                    <input required type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div> -->
-                <small id="emailHelp" class="form-text text-muted">
-                    <a class="iforget" href="#">Forgotten password?
-                    </a>
-                </small>
-                <!-- <a type="submit" href="./index.html" class="btn btn-primary btn-block">Submit</a> -->
-                <button type="submit" class="btn btn-outline-success btn-block" style="margin-top: 20px;">
-                    Submit
-                </button>
-            </form>
-        </div>
+
+    <div class="card-body bg-success" data-aos="fade-left" style="margin: 2%;">
+        <img src="./fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" style="max-width: 320px;" alt="">
+        <h5 class="card-title" style="margin-top: 20px;">Website Development Services</h5>
+        <p class="card-text" style="font-size: 12px;">We design and develop websites with the modern stacks that helps
+            you to promote your business.</p>
     </div>
+    <div class="card-body bg-danger" data-aos="fade-right" style="margin: 2%;">
+        <img src="./heylagostechie-vII7qKAk-9A-unsplash.jpg" style="max-width: 320px;" alt="">
+        <h5 class="card-title" style="margin-top: 20px;">Website Securities</h5>
+        <p class="card-text" style="font-size: 12px;">We provide securites and removes the modern vulnerabilities from
+            your website
+            so that no can misuse your professional business.</p>
+    </div>
+
+
 
     <div class="footer">
         <div class="card-1">
@@ -93,6 +82,14 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000,
+          once: true
+      });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -100,7 +97,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
